@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# CogniLoad local data — contains user accounts (password hashes) and reports.
+# The database is auto-created on first run, never commit it.
+data/*.db
+data/cogniload.db
+*.db
+
+# Local setup markers / secrets
+.deps_installed
+.env
+*.key
+*.pem
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
